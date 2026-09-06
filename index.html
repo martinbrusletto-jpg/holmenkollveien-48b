@@ -25,18 +25,21 @@
 
   <main id="top">
     <section class="hero">
-      <div class="hero-media">
+      <div class="hero-media" data-parallax>
         <img src="assets/exterior.jpg" alt="Fasade, Holmenkollveien 48B" width="2400" height="1600" />
+        <div class="hero-veil"></div>
       </div>
-      <div class="hero-copy">
+      <div class="hero-copy reveal-hero">
         <p class="eyebrow">Holmenkollveien 48B · 0787 Oslo</p>
         <h1>En rolig adresse med utsikt mot byen</h1>
         <p class="hero-sub"><em>Enebolig med gjennomgående materialkvalitet og rolige rom.</em></p>
         <p class="price">Prisantydning 18&nbsp;900&nbsp;000&nbsp;kr</p>
+        <a class="hero-cta" href="#rom">Se boligen</a>
       </div>
+      <div class="scroll-hint" aria-hidden="true"><span></span></div>
     </section>
 
-    <section class="intro" id="om">
+    <section class="intro reveal" id="om">
       <div class="wrap narrow">
         <h2>Om boligen</h2>
         <p>Holmenkollveien 48B ligger i en etablert villaklynge med korte avstander til marka og byen. Boligen er oppgradert med fokus på lys, materialer og en planløsning som fungerer for en stor familie.</p>
@@ -44,7 +47,7 @@
       </div>
     </section>
 
-    <section class="stats" aria-label="Nøkkeltall">
+    <section class="stats reveal" aria-label="Nøkkeltall">
       <div class="wrap">
         <ul>
           <li><span>Type</span><strong>Enebolig</strong></li>
@@ -57,27 +60,27 @@
       </div>
     </section>
 
-    <section class="gallery" id="rom">
+    <section class="gallery reveal" id="rom">
       <div class="wrap">
         <h2>Rom</h2>
         <div class="grid">
-          <figure class="wide">
+          <figure class="wide reveal-item">
             <img src="assets/kitchen.jpg" alt="Kjøkken med marmorøy" loading="lazy" />
             <figcaption>Kjøkken · marmorøy, integrerte hvitevarer</figcaption>
           </figure>
-          <figure>
+          <figure class="reveal-item">
             <img src="assets/living.jpg" alt="Stue med hyller og peis" loading="lazy" />
             <figcaption>Stue · hyller med LED, peis</figcaption>
           </figure>
-          <figure>
+          <figure class="reveal-item">
             <img src="assets/bath-1.jpg" alt="Bad med dobbel servant" loading="lazy" />
             <figcaption>Bad · dobbel servant, dusj</figcaption>
           </figure>
-          <figure class="wide">
+          <figure class="wide reveal-item">
             <img src="assets/bath-2.jpg" alt="Bad med sort innramming" loading="lazy" />
             <figcaption>Bad · mørke fronter, sort innrammet dusj</figcaption>
           </figure>
-          <figure class="wide">
+          <figure class="wide reveal-item">
             <img src="assets/exterior.jpg" alt="Fasade" loading="lazy" />
             <figcaption>Ute · trekledning, skifergrått tak</figcaption>
           </figure>
@@ -85,7 +88,7 @@
       </div>
     </section>
 
-    <section class="materials" id="materialer">
+    <section class="materials reveal" id="materialer">
       <div class="wrap narrow">
         <h2>Materialer</h2>
         <ul class="mat-list">
@@ -99,7 +102,7 @@
       </div>
     </section>
 
-    <section class="location" id="beliggenhet">
+    <section class="location reveal" id="beliggenhet">
       <div class="wrap split">
         <div>
           <h2>Beliggenhet</h2>
@@ -118,7 +121,7 @@
       </div>
     </section>
 
-    <section class="contact" id="kontakt">
+    <section class="contact reveal" id="kontakt">
       <div class="wrap narrow">
         <h2>Kontakt</h2>
         <p>Interessert i Holmenkollveien 48B? Ta kontakt for privat visning.</p>
